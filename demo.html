@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>creating mutliplae button</title>
+</head>
+<style >
+	.b1{
+		background: white;
+		color: blue;
+		padding: 12px 24px ;
+		border: 1px solid blue;
+		border-radius: 10px;
+	}
+	.b2{
+		background: white;
+		color: blue;
+		padding: 12px 24px ;
+		border: 1px solid blue;
+		border-radius: 50%;
+	}
+	.b3{
+		background: dodegerblue;
+		color: blue;
+		padding: 12px 24px ;
+		border: none;
+		
+	}
+	.b3:hover{
+		background-color: yellow;
+		box-shadow: 7px 7px 7px 7px;
+	}
+	.b4:hover{
+		transform: translate(0px,-10px);
+		background-color: yellow;
+		box-shadow: 7px 7px 7px 7px;}
+		.b5{
+			background-color: dodgerblue;
+			color: white;
+			padding: 12px 24px;
+			border:none;
+		cursor: pointer;
+		width: 20%;
+		transition-duration: 0.2sec;
+		}
+		.b5:hover{
+			transform: translate(0,-10px);
+			box-shadow: pink;
+		}
+</style>
+<body>
+	<h1>my first heading</h1>
+	<p>the first para</p>
+	<button class="b1">1st button</button>
+
+	<button class="b2">2st button</button>
+
+	<button class="b3">3st button</button>
+
+	<button class="b4">4st button</button>
+	//div k ander multiple button//
+	<div>
+	<button class="b5">1st button</button>
+	<button class="b5">2st button</button>
+	<button class="b5">3st button</button>
+	<button class="b5">4st button</button>
+	</div>
+</body>
+</html>
